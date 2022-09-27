@@ -17,114 +17,222 @@
     "url": "/docs/0xx/005/",
     "relUrl": "/docs/0xx/005/"
   },"3": {
+    "doc": "BK – Livros",
+    "title": "BK – Livros",
+    "content": " ",
+    "url": "/docs/0xx/008/008-bk/",
+    "relUrl": "/docs/0xx/008/008-bk/"
+  },"4": {
+    "doc": "BK – Livros",
+    "title": "TESTE",
+    "content": " ",
+    "url": "/docs/0xx/008/008-bk/#teste",
+    "relUrl": "/docs/0xx/008/008-bk/#teste"
+  },"5": {
+    "doc": "CF – Arquivos de Computador",
+    "title": "CF – Arquivos de Computador",
+    "content": " ",
+    "url": "/docs/0xx/008/008-cf/",
+    "relUrl": "/docs/0xx/008/008-cf/"
+  },"6": {
+    "doc": "CR - Recursos Contínuos",
+    "title": "CR - Recursos Contínuos",
+    "content": " ",
+    "url": "/docs/0xx/008/008-cr/",
+    "relUrl": "/docs/0xx/008/008-cr/"
+  },"7": {
+    "doc": "MP - Mapas",
+    "title": "MP - Mapas",
+    "content": " ",
+    "url": "/docs/0xx/008/008-mp/",
+    "relUrl": "/docs/0xx/008/008-mp/"
+  },"8": {
+    "doc": "MU - Música",
+    "title": "MU - Música",
+    "content": " ",
+    "url": "/docs/0xx/008/008-mu/",
+    "relUrl": "/docs/0xx/008/008-mu/"
+  },"9": {
+    "doc": "MX - Materiais Mistos",
+    "title": "MX - Materiais Mistos",
+    "content": " ",
+    "url": "/docs/0xx/008/008-mx/",
+    "relUrl": "/docs/0xx/008/008-mx/"
+  },"10": {
+    "doc": "VM - Material Visual",
+    "title": "VM - Material Visual",
+    "content": " ",
+    "url": "/docs/0xx/008/008-vm/",
+    "relUrl": "/docs/0xx/008/008-vm/"
+  },"11": {
     "doc": "CAMPO 008 - Campos Fixos de Dados",
     "title": "CAMPO 008 - Campos Fixos de Dados",
     "content": "Formado por 40 posições fixas de caracteres que contém informações sobre o registro como um todo ou sobre aspectos específicos do item que está sendo catalogado. Esses dados codificados podem ser usados para propósitos de recuperação e gerenciamento de dados. Posições definidas conforme tipo de material bibliográfico. As posições 18-34 são definidas para cada tipo de material. ",
     "url": "/docs/0xx/008/",
     "relUrl": "/docs/0xx/008/"
-  },"4": {
+  },"12": {
+    "doc": "CAMPO 020 - ISBN",
+    "title": "CAMPO 020 - ISBN",
+    "content": "Incluir o International Standard Book Number (ISBN) e os dados referentes à encadernação. Quando a publicação é editada em várias formas, ou por mais de um editor e, tem mais de um ISBN, cada um deles é registrado seguido da indicação da encadernação ou do nome do editor aos quais o ISBN corresponde. Separá-los por espaço-hífen-espaço dentro do subcampo $a. Indicadores – Indefinidos; cada um contém branco (#) . Códigos de subcampo . $a ISBN - Transcrever o número do ISBN, omitindo os hifens . $c preço . $q informação de qualificação . $z ISBN cancelado . Exemplos: . |   | Formato MARC |   | Catalogação AACR2 |   | . |   | 020 | 0# | $a9788570130754 |   | . | $qv. 1 |   | ISBN 978-85-7013-075-4 (v. 1) |   |   | . |   |   | 020 | 0# | $a0379005506 | . $qobra compl. | 020 | 0# | $a 0379005514 | . | $qv. 1 |   | ISBN 0-379-00550-6 (obra compl.). – ISBN 0-379-00551-4 (v. 1) |   |   | . |   |   | 020 | 0# | $a8585024046 | . $qFEBAB . | 020 | 0# | $a8570602898 | . | $qImprensa Oficial do Estado de São Paulo |   | ISBN 85-85024-04-6 (FEBAB). – ISBN 85-7060-289-8 (Imprensa Oficial do Estado de São Paulo) |   | . ",
+    "url": "/docs/0xx/020/",
+    "relUrl": "/docs/0xx/020/"
+  },"13": {
+    "doc": "CAMPO 022 - ISSN",
+    "title": "CAMPO 022 - ISSN",
+    "content": "Registrar o International Standard Serial Number (ISSN), encadernação e preço. O campo 022 é repetitivo quando múltiplos números foram atribuídos a um periódico, tal como quando ocorre uma mudança no título do periódico. Se ocorrer tal mudança, um novo registro é criado; o 022 não é repetitivo no registro substituto. Indicador 1 - Nível de interesse internacional . branco Nível não especificado . 0 Periódico de interesse internacional . 1 Periódico sem interesse internacional . Indicador 2 - Indefinido; contém branco (#) . Códigos de subcampo . $a ISSN - Transcrever o número completo do ISSN, omitindo os hifens . $y ISSN - incorreto . $z ISSN - cancelado . Exemplo: . |   | Formato MARC |   | Catalogação AACR2 |   |   |   | . |   | 022 | 0# | $a03044076 |   | ISSN 0304-4076 |   | . ",
+    "url": "/docs/0xx/022/",
+    "relUrl": "/docs/0xx/022/"
+  },"14": {
+    "doc": "CAMPO 040 - Fonte da Catalogação",
+    "title": "CAMPO 040 - Fonte da Catalogação",
+    "content": "Informar o código MARC da instituição que criou o registro original. Os códigos MARC no campo 040 e o código em 008/39 (Fonte da catalogação), especificam a responsabilidade de um registro bibliográfico. A fonte desses códigos é o Symbols of American Libraries, que é mantido pela Library of Congress. http://www.loc.gov/marc/organizations/form-por.html . Indicadores – Indefinidos; cada um contém branco (#) . Códigos de subcampo . $a Instituição da catalogação original . $b Idioma da catalogação . $c Instituição que transcreveu . $d Instituição que modificou o registro . ",
+    "url": "/docs/0xx/040/",
+    "relUrl": "/docs/0xx/040/"
+  },"15": {
+    "doc": "CAMPO 041 - Código de Idioma",
+    "title": "CAMPO 041 - Código de Idioma",
+    "content": "Registrar o código composto de três caracteres para idiomas associados ao item quando o campo 008/35-37 (Idioma) é insuficiente para conter a informação completa para item multilíngue ou um item que envolve tradução. Quando a publicação estiver na língua original e não for multilíngue, este campo não deve ser preenchido. A fonte do código é MARC Code List for Languages que é mantida pela LC, portanto apresentado no idioma inglês. (ver tabela auxiliar de línguas). Indicador 1 - Indicação de tradução . branco não informa se é tradução . 0 Item não é tradução / não inclui tradução . 1 Item é ou inclui tradução . Indicador 2 – Fonte do código . branco código MARC de idioma . 7 fonte especificada no $2 . Códigos de subcampo . $a código do idioma do texto . $b código do idioma do sumário ou resumo . $h código do idioma do original . $2 fonte do código . Exemplos: . |   | Idioma |   | Formato MARC |   | Catalogação AACR2 |   | . |   | tradução |   | 041 | 2# | $apor$heng |   | . | 245 | 12 | $aA biblioteca eletrônica |   | A biblioteca eletrônica. | . | Tradução de: The electronic library. |   |   |   |   |   |   | . |   |   | tradução |   | 041 | 2# | $apor$heng | . | 245 | 10 | $aCódigo de catalogação anglo-americano |   | Código de catalogação anglo-americano. | . | Título original: Anglo American cataloguing rules. |   |   |   |   |   |   |   |   |   | . |   |   | multilíngue |   | 041 | 0# | $afreengger |   | Textos em francês, inglês e alemão. |   | . ",
+    "url": "/docs/0xx/041/",
+    "relUrl": "/docs/0xx/041/"
+  },"16": {
+    "doc": "CAMPO 043 - Código de Área Geográfica",
+    "title": "CAMPO 043 - Código de Área Geográfica",
+    "content": "Incluir o Código de Área Geográfica que deve conter até 7 (sete) caracteres, sendo eles alfabéticos e hifens, fornecendo, tanto quanto possível, as divisões hierárquicas das entidades geográficas e políticas, de acordo com a tabela auxiliar de áreas geográficas. Esta informação será retirada do campo de assunto. Caso a obra apresente mais de uma área geográfica, todas devem ser transcritas, separando-se cada uma pelo delimitador $a código da área geográfica. Indicadores – Indefinidos; cada um contém branco (#) . Códigos de subcampo . $a código de área geográfica . $b código de área geográfica local . Exemplo: . |   | Formato MARC |   |   | . |   | 043 | # # | $as-bl— | . | $an-us— |   | . ",
+    "url": "/docs/0xx/043/",
+    "relUrl": "/docs/0xx/043/"
+  },"17": {
+    "doc": "CAMPO 044 - Código do país de publicação (NR)",
+    "title": "CAMPO 044 - Código do país de publicação (NR)",
+    "content": "Incluir um código MARC de dois ou três caracteres para o país da instituição produtora ou editora, quando o campo 008/15-17 (Lugar de publicação, produção ou execução) for insuficiente para acomodar toda a informação para um item publicado ou produzido em mais de um país. A fonte do código é MARC Code List for Countries, mantida pela Library of Congress. Este campo é usado em conjunto com 008/15-17. O código registrado no campo 008 é também registrado no subcampo $a do campo 044. Indicadores – Indefinidos; cada um contém branco (#) . Códigos de subcampo . $a código do país da empresa publicadora / produtora (R) . $b código do local da sub-entidade (R) . $c código ISO de sub-entidade (R) . Exemplo: . |   | ``` |   | . | &lt;pre class=\"western\"&gt;044 | # # | $abr&lt;/span&gt;&lt;/span&gt;$brs | . | ``` |   |   | . ",
+    "url": "/docs/0xx/044/",
+    "relUrl": "/docs/0xx/044/"
+  },"18": {
+    "doc": "CAMPO 080 - CDU",
+    "title": "CAMPO 080 - CDU",
+    "content": " ",
+    "url": "/docs/0xx/080/",
+    "relUrl": "/docs/0xx/080/"
+  },"19": {
+    "doc": "CAMPO 082 - CDD",
+    "title": "CAMPO 082 - CDD",
+    "content": " ",
+    "url": "/docs/0xx/082/",
+    "relUrl": "/docs/0xx/082/"
+  },"20": {
+    "doc": "CAMPO 084 - Outro Número de Classificação",
+    "title": "CAMPO 084 - Outro Número de Classificação",
+    "content": " ",
+    "url": "/docs/0xx/084/",
+    "relUrl": "/docs/0xx/084/"
+  },"21": {
+    "doc": "CAMPO 090 - Número de Chamada Local",
+    "title": "CAMPO 090 - Número de Chamada Local",
+    "content": " ",
+    "url": "/docs/0xx/090/",
+    "relUrl": "/docs/0xx/090/"
+  },"22": {
     "doc": "0XX Campos de controle",
     "title": "0XX Campos de controle",
-    "content": ". | CAMPO 001 – Número de Controle | CAMPO 003 – Identificador do Número de Controle | CAMPO 005 – Data e Hora da Última Atualização | CAMPO 008 – Campos Fixos de Dados | BK – Livros | CF – Arquivos de Computador | CR - Recursos Contínuos | MP - Mapas | MU - Música | MX - Materiais Mistos | VM - Material Visual | CAMPO 020 - ISBN | CAMPO 022 - ISSN | CAMPO 040 - Fonte da Catalogação | CAMPO 041 - Código de Idioma | CAMPO 043 - Código de Área Geográfica | CAMPO 080 - CDU | CAMPO 082 - CDD | CAMPO 084 - Outro Número de Classificação | CAMPO 090 - Número de Chamada Local | . ",
+    "content": " ",
     "url": "/docs/0xx",
     "relUrl": "/docs/0xx"
-  },"5": {
+  },"23": {
     "doc": "1XX Entrada principal",
     "title": "1XX Entrada principal",
     "content": ". | CAMPO 100 - Nome Pessoal | CAMPO 110 - Entidade Coletiva | CAMPO 111 - Conferência, Seminário, etc. | CAMPO 130 - Título Uniforme | . ",
     "url": "/docs/1xx",
     "relUrl": "/docs/1xx"
-  },"6": {
+  },"24": {
     "doc": "2XX Área de títulos e indicação de responsabilidade",
     "title": "2XX Área de títulos e indicação de responsabilidade",
     "content": ". | CAMPO 210 - Título Chave Abreviado | CAMPO 222 - Título Chave | CAMPO 240 - Título Uniforme | CAMPO 242 - Título Traduzido por Instituição Catalogadora | CAMPO 243 - Título da Coletânea | CAMPO 245 - Título | CAMPO 246 - Forma Variante do Título | CAMPO 250 - Área de Edição | CAMPO 255 - Dado Cartográfico Matemático | CAMPO 256 – Características do Arquivo de Computador | CAMPO 260 - Área de Publicação | . ",
     "url": "/docs/2xx",
     "relUrl": "/docs/2xx"
-  },"7": {
+  },"25": {
     "doc": "3XX Área de descrição física etc",
     "title": "3XX Área de descrição física etc",
     "content": ". | CAMPO 300 - Área da Descrição Física | CAMPO 310 - Frequência da Publicação Corrente | CAMPO 321 – Periodicidade Anterior | CAMPO 362 - Datas de Publicação e/ou Indicação de Volume | . ",
     "url": "/docs/3xx",
     "relUrl": "/docs/3xx"
-  },"8": {
+  },"26": {
     "doc": "4XX Área de série",
     "title": "4XX Área de série",
     "content": ". | CAMPO 490 - Título de Série | . ",
     "url": "/docs/4xx",
     "relUrl": "/docs/4xx"
-  },"9": {
+  },"27": {
     "doc": "5XX Área de notas",
     "title": "5XX Área de notas",
     "content": ". | CAMPO 500 - Nota Geral | CAMPO 501 - Nota Iniciada pela Palavra \"COM\" | CAMPO 502 - Nota de Dissertação ou Tese | CAMPO 504 - Nota de Bibliografia | CAMPO 505 - Nota de Conteúdo | CAMPO 506 - Nota de Acesso Restrito | CAMPO 510 - Nota de Citação / Referência | CAMPO 515 - Nota de Peculiaridades da Numeração | CAMPO 516 – Nota Tipo de Arquivo ou Dado de Computador | CAMPO 518 – Nota Data / Hora e Lugar de um Evento | CAMPO 520 - Nota de Resumo | CAMPO 521 - Nota de Público Alvo | CAMPO 530 - Nota de Disponibilidade de Forma Física | CAMPO 533 - Nota de Reprodução | CAMPO 534 - Nota de Versão Original | CAMPO 536 - Nota de Informação sobre Financiamento | CAMPO 538 - Nota de Detalhes do Sistema | CAMPO 546 - Nota de Idioma | CAMPO 555 - Nota de Índice Cumulativo e Remissivo | CAMPO 562 - Nota de Identificação de Cópia e Versão | . ",
     "url": "/docs/5xx",
     "relUrl": "/docs/5xx"
-  },"10": {
+  },"28": {
     "doc": "6XX Entradas secundárias de assunto",
     "title": "6XX Entradas secundárias de assunto",
     "content": ". | CAMPO 600 - Assunto - Nome Pessoal | CAMPO 610 - Assunto - Entidade Coletiva (R) | CAMPO 611 - Assunto - Conferências, Seminários, etc. | CAMPO 630 - Assunto - Título Uniforme | CAMPO 650 - Assunto Tópico | CAMPO 651 - Assunto Geográfico | CAMPO 653 - Termo Livre | . ",
     "url": "/docs/6xx",
     "relUrl": "/docs/6xx"
-  },"11": {
+  },"29": {
     "doc": "7XX Outras entradas secundárias",
     "title": "7XX Outras entradas secundárias",
     "content": ". | CAMPO 700 - Entrada Secundária - Nome Pessoal | CAMPO 710 - Entrada Secundária - Entidade Coletiva | CAMPO 711 - Entrada Secundária - Conferências, Seminários, etc. | CAMPO 720 - Entrada Secundária – Nome não Controlado | CAMPO 730 - Entrada Secundária - Título Uniforme | CAMPO 740 - Título Adicional | CAMPO 770 - Entrada de Suplemento / Edição Especial | CAMPO 773 – Entrada Analítica (R) | CAMPO 780 - Entrada De Ligação Anterior (Seriado)z | CAMPO 785 – Entrada De Ligação Posterior (Seriado) | . ",
     "url": "/docs/7xx",
     "relUrl": "/docs/7xx"
-  },"12": {
+  },"30": {
     "doc": "8XX Entradas secundárias de série",
     "title": "8XX Entradas secundárias de série",
     "content": ". | CAMPO 830 – Entrada Secundária de Série - Título | CAMPO 856 - Localização de Acesso Eletrônico | . ",
     "url": "/docs/8xx",
     "relUrl": "/docs/8xx"
-  },"13": {
+  },"31": {
     "doc": "9XX Livre",
     "title": "9XX Livre",
     "content": ". | CAMPO 949 - Número de Tombo | . ",
     "url": "/docs/9xx",
     "relUrl": "/docs/9xx"
-  },"14": {
+  },"32": {
     "doc": "Bibliografia",
     "title": "Bibliografia",
     "content": "BALBY, Cláudia Negrão. Formatos de intercâmbio de registros bibliográficos: conceitos básicos. Cadernos da FFC, Marília, v.4, n.1, p.29-35, 1995. CÓDIGO de catalogação anglo-americano: segunda edição revisão 2002. Tradução para língua portuguesa sob a responsabilidade da FEBAB. São Paulo: FEBAB, Imprensa Oficial do Estado de São Paulo, 2004. FERREIRA, Margarida M. MARC21: formato condensado para dados bibliográficos. Marília: UNESP, 2000. FURRIE, Betty. O MARC bibliográfico: um guia introdutório. Brasília: Thesaurus, 2000. HAUENSTEIN, Deisi Maria. O formato MARC: sua evolução e perspectivas futuras. Porto Alegre: UFRGS, 2001. MARC 21 Format for Bibliographic Data. Disponível em: http://www.loc.gov/marc/bibliographic/. Acesso em: 14 de maio de 2016. RIBEIRO, Antonia Motta de Castro Memória. Catalogação de recursos bibliográficos pelo AACR2R 2002. 2. ed. Brasília: Ed. do Autor, 2004. __. Catalogação de recursos bibliográficos: AACR2R em MARC 21. 6. ed. Brasília: Três em Um, 2015. TACQUES, Maria de Nazareth Montojos (org.). Manual para entrada de dados em formato MARC. Rio de Janeiro: Fundação Biblioteca Nacional, 1997. ",
     "url": "/docs/bibliografia/",
     "relUrl": "/docs/bibliografia/"
-  },"15": {
+  },"33": {
     "doc": "Exemplos",
     "title": "Exemplos",
     "content": "Os exemplos relacionados foram extraídos do livro: RIBEIRO, Antonia Motta de Castro Memória. Catalogação de recursos bibliográficos : AACR2 em MARC 21. 6. ed. Brasília : Três em Um, 2015. Aos exemplos foram acrescentados o líder, os campos de controle e os campos de entrada secundária de assunto, de acordo com o formato MARC. ",
     "url": "/docs/exemplos",
     "relUrl": "/docs/exemplos"
-  },"16": {
+  },"34": {
     "doc": "Apresentação",
     "title": "Apresentação",
     "content": "Com objetivo de associar o uso dos campos do MARC21 às regras de catalogação, este material foi organizado seguindo a ordem numérica dos campos do MARC21, com conceitos, observações e exemplos. Os exemplos foram extraídos do livro de Antonia Motta de Castro Memória Ribeiro. Catalogação de recursos bibliográficos: AACR2 em MARC 21. 6. ed. Brasília: Três em Um, 2015. ",
     "url": "/",
     "relUrl": "/"
-  },"17": {
+  },"35": {
     "doc": "Apresentação",
     "title": "Table of contents",
     "content": ". | Apresentação . | Visão geral | Formato MARC21 | . | Conceitos básicos . | Etiquetas | . | . ",
     "url": "/#table-of-contents",
     "relUrl": "/#table-of-contents"
-  },"18": {
+  },"36": {
     "doc": "Apresentação",
     "title": "Visão geral",
     "content": "O MARC (MAchine Readable Cataloging) – Registro Catalográfico Legível por Máquina foi desenvolvido na década de 60 pela Library of Congress com o propósito de: . | padronizar a representação descritiva automatizada dos registros bibliográficos | permitir a troca das informações bibliográficas entre bibliotecas | possibilitar a catalogação cooperativa | . ",
     "url": "/#vis%C3%A3o-geral",
     "relUrl": "/#visão-geral"
-  },"19": {
+  },"37": {
     "doc": "Apresentação",
     "title": "Formato MARC21",
     "content": ". | 1965 – Projeto piloto – Library of Congress e mais 16 bibliotecas | 1967 – OCLC (Ohio College Library Center) – 1o. Banco de dados bibliográfico | 1983 – o LC Marc se transformou em USMARC | . No final dos anos 90 – unificação do USMARC com o CANMARC formando o MARC 21. ",
     "url": "/#formato-marc21",
     "relUrl": "/#formato-marc21"
-  },"20": {
+  },"38": {
     "doc": "Apresentação",
     "title": "Conceitos básicos",
     "content": "Base de dados: Conjunto estruturado de dados armazenados em meio legível por computador, no qual o nível de padronização de dados é alto. | Registro: Conjunto de todas as informações relativas a um item de uma base de dados. | Campo: Espaço definido para cada unidade de informação de um registro. É uma área definida na qual o mesmo tipo de informação é cadastrada consistentemente. | Subcampo: Subdivisão do campo. Subcampos são as menores unidades lógicas de informação em um campo variável. Representam o nível inferior de designação de conteúdo no MARC. Códigos de subcampos (letras ou números) identificam subcampos e são precedidos por delimitadores de subcampos (/). | Indicador: Valor associado a um campo, sinalizando que o dado contido no campo necessita de algum processamento especial. Os indicadores contêm informações sobre o campo para indexação, produção de fichas, ou outras funções do sistema. Os números em posições de indicadores têm significados pré-determinados. | Campo ou subcampo repetitivos: É o campo que pode ocorrer mais de uma vez no mesmo registro, ou o subcampo que pode ocorrer mais de uma vez no mesmo campo. | Campo ou subcampo obrigatório: É o campo ou subcampo cujo preenchimento é necessário e obrigatório para consistência dos dados. | Campos fixos: Campos que possuem tamanho (ou largura) fixo. O primeiro campo no registro é o campo fixo. Etiquetas mnemônicas identificam os elementos que contêm informações codificadas descrevendo o item e o próprio registro. | Campos variáveis: Campos que possuem tamanho (ou largura) variável. O tamanho está de acordo com o dado contido no campo. | ISO 2709: Norma que define a estrutura do arquivo físico que permite o intercâmbio de informações. É um formato padrão de comunicação para registros bibliográficos, utilizado para intercâmbio de registros em meio magnético de um sistema para outro. | Z39.50: Protocolo de comunicação entre servidores de bases de dados. | . ",
     "url": "/#conceitos-b%C3%A1sicos",
     "relUrl": "/#conceitos-básicos"
-  },"21": {
+  },"39": {
     "doc": "Apresentação",
     "title": "Etiquetas",
     "content": "As etiquetas identificam os campos variáveis e são agrupadas numericamente por função. XX indica um valor numérico entre 00 e 99. | 0XX = Números de controle bibliográfico e informações codificadas . | 1XX = Entrada principal . | 2XX = Área de títulos e indicação de responsabilidade; edição, imprenta . | 3XX = Área de descrição física etc . | 4XX = Área de série . | 5XX = Área de notas . | 6XX = Entradas secundárias de assunto . | 7XX = Outras entradas secundárias; campos de ligação ou relacionados . | 8XX = Entradas secundárias de série . | 9XX = Livre para cada biblioteca definir conforme suas necessidades . | . Dentro dos blocos 1XX, 4XX, 6XX, 7XX e 8XX, algumas indicações de conteúdo se repetem. Os dois caracteres finais nestes blocos possuem os seguintes significados. | X00 = Nomes pessoais . | X10 = Nomes corporativos . | X11 = Nomes de eventos . | X30 = Títulos uniformes . | X40 = Títulos bibliográficos . | X50 = Termos tópicos . | X51 = Nomes geográficos . | . ",
